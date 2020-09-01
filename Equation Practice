@@ -1,0 +1,37 @@
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+
+int main(g++ main.cpp -Wall -o a.out)
+{
+    double a;
+    cout << "Enter number 1: ";
+    cin >> a;
+
+    double b;
+    cout << "Enter number 2: ";
+    cin >> b;
+
+    double c;
+    cout << "Enter number 3: ";
+    cin >> c;
+
+    double d;
+    cout << "Enter number 4: ";
+    cin >> d;
+
+    string formula1 = "Formula 1: ";
+    double a1 = (a + b + c)/(2*a*c);
+    string formula2 = "Formula 2: ";
+    double a2 = ((pow(a, 2)) / b) + (c / d)*(a + b);
+    string formula3 = "Formula 3: ";
+    double a3 = (pow(a, (2 + b+ c)) + a - c + 4);
+
+    cout << formula1 << " " << a1 << endl;
+    cout << formula2 << " " << a2 << endl;
+    cout << formula3 << " " << a3 << endl;
+
+    return 0;
+
+}
